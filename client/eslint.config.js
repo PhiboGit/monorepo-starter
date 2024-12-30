@@ -152,7 +152,6 @@ export default tseslint.config(
     // naming rules files and folders
     // following bulletproof react project standards: https://github.com/alan2207/bulletproof-react/tree/master
     files: ['src/**/*'],
-    ignores: ['**/*.d.ts'],
     plugins: {
       'check-file': checkFile,
     },
@@ -161,6 +160,9 @@ export default tseslint.config(
         'error',
         {
           '**/*.{jsx,tsx,ts}': 'KEBAB_CASE',
+        },
+        {
+          ignoreMiddleExtensions: true,
         },
       ],
       'check-file/folder-naming-convention': [
