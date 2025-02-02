@@ -15,7 +15,6 @@ Diese Struktur basiert auf den folgenden Regeln:
 * **Barrel Files (`index.ts`)**: Definieren eine öffentliche API für Features und verhindern unkontrollierte Exporte.  
 * **ESLint: Setzt die Architektur durch. Verstöße gegen Konventionen werden direkt erkannt.  
 
----
 
 ## **Hierarchie und Zugriffskontrolle**  
 
@@ -48,7 +47,6 @@ src/
 > Wo werden eigene generelle Components angesiedelt?
 > werden in App(routing) Features zu Seiten(Pages) zusammen geführt?
 
----
 
 ## **Barrel Files**  
 
